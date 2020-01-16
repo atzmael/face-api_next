@@ -34,6 +34,7 @@ async function startRecognition() {
         .detectAllFaces(input)
         .withFaceLandmarks()
         .withFaceExpressions()
+        console.log(detectionsWithExpressions)
     // resize the detected boxes and landmarks in case your displayed image has a different size than the original
     const resizedResults = faceapi.resizeResults(detectionsWithExpressions, displaySize)
     // draw detections into the canvas
