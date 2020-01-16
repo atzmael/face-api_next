@@ -15,6 +15,9 @@ const Header = () => (
         <Link href="/face-detection">
             <a style={linkStyle}>Face detection</a>
         </Link>
+        <Link href="/webcam-detection">
+            <a style={linkStyle}>Webcam detection</a>
+        </Link>
     </div>
 );
 
